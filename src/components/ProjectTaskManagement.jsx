@@ -113,7 +113,7 @@ const ProjectTaskManagement = () => {
           className="bg-card p-4 rounded-lg shadow transition-transform transform hover:scale-105"
           whileHover={{ scale: 1.05 }}
         >
-          <h2 className="font-semibold">Create New Project</h2>
+          <h2 className="font-semibold">Create Disha Project</h2>
           <form onSubmit={createProject}>
             <input
               type="text"
@@ -172,9 +172,9 @@ const ProjectTaskManagement = () => {
           className="bg-card p-4 rounded-lg shadow transition-transform transform hover:scale-105"
           whileHover={{ scale: 1.05 }}
         >
-          <h2 className="font-semibold">Task Overview</h2>
+          <h2 className="font-semibold">Disha Overview</h2>
           <div className="mt-2">
-            <p className="text-lg">Total Tasks: <span className="text-primary">{tasks.length}</span></p>
+            <p className="text-lg">Disha Tasks: <span className="text-primary">{tasks.length}</span></p>
             <p className="text-lg">Completed: <span className="text-green-500">{tasks.filter(task => task.completed).length}</span></p>
             <p className="text-lg">Pending: <span className="text-red-500">{tasks.filter(task => !task.completed).length}</span></p>
           </div>
