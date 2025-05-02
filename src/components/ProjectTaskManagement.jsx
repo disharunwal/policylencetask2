@@ -95,7 +95,7 @@ const ProjectTaskManagement = () => {
               
             
             />
-            <button type="submit" className="bg-primary text-white hover:bg-secondary p-2 rounded">Disha Add Comment</button>
+            {/* <button type="submit" className="bg-primary text-white hover:bg-secondary p-2 rounded">Disha Add Comment</button> */}
           </form>
          
         </div>
